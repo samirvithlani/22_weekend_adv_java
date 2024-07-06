@@ -49,4 +49,14 @@
     <servlet-name>Basic1Servlet</servlet-name>
     <url-pattern>/Basic1Servlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddEmployeeController</display-name>
+    <servlet-name>AddEmployeeController</servlet-name>
+    <servlet-class>com.controller.AddEmployeeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddEmployeeController</servlet-name>
+    <url-pattern>/AddEmployeeController</url-pattern>
+  </servlet-mapping>
 </web-app>
